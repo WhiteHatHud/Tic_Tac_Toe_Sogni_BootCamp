@@ -1,0 +1,15 @@
+.wrap {
+  padding: 14px;
+}
+
+.grid {
+  display: grid;
+  gap: clamp(8px, 2.4vw, 12px);
+  grid-template-columns: repeat(3, minmax(72px, 1fr));
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.cell {
+  display: contents;
+}

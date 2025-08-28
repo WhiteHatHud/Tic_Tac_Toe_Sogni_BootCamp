@@ -1,0 +1,18 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.resetBtn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.resetBtn:hover {
+  background: #1565c0;
+}

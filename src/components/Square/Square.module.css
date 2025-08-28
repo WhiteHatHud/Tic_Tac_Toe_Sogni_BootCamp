@@ -1,0 +1,30 @@
+.square {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #283143;
+  background: #0f131a;
+  display: grid;
+  place-items: center;
+  user-select: none;
+  outline: none;
+}
+
+.square:focus-visible {
+  box-shadow: 0 0 0 3px var(--focus);
+}
+
+.square:disabled {
+  opacity: 0.8;
+}
+
+.mark {
+  font-weight: 900;
+  font-size: clamp(36px, 10vw, 64px);
+  line-height: 1;
+}
+
+.winning {
+  border-color: var(--win);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--win) 60%, transparent) inset;
+}

@@ -1,0 +1,6 @@
+.banner {
+  text-align: center;
+  font-size: clamp(14px, 2.4vw, 16px);
+  color: var(--muted);
+  padding-block: 14px;
+}
